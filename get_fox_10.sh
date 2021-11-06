@@ -118,9 +118,9 @@ local URL
 clone_fox_recovery() {
 local URL=""
    if [ "$USE_SSH" = "0" ]; then
-      URL="https://gitlab.com/OrangeFox/bootable/Recovery.git"
+      URL="https://github.com/Ctapchuk/android_bootable_recovery-OFRP.git"
    else
-      URL="git@gitlab.com:OrangeFox/bootable/Recovery.git"
+      URL="git@github.com:Ctapchuk/android_bootable_recovery-OFRP.git"
    fi
 
    mkdir -p $MANIFEST_DIR/bootable
@@ -152,9 +152,9 @@ local URL=""
 clone_fox_vendor() {
 local URL
    if [ "$USE_SSH" = "0" ]; then
-      URL="https://gitlab.com/OrangeFox/vendor/recovery.git"
+      URL="https://github.com/Ctapchuk/android_bootable_recovery-OFRP.git"
    else
-      URL="git@gitlab.com:OrangeFox/vendor/recovery.git"
+      URL="git@github.com:Ctapchuk/android_bootable_recovery-OFRP.git"
    fi
    
    echo "-- Preparing for cloning the OrangeFox vendor tree ..."
