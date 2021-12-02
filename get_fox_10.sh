@@ -10,7 +10,7 @@
 
 # the branches we will be dealing with
 FOX_BRANCH="fox_10.0";
-TWRP_BRANCH="twrp-10.0";
+TWRP_BRANCH="twrp-10.0-deprecated";
 DEVICE_BRANCH="android-10";
 
 # the base version of the current OrangeFox
