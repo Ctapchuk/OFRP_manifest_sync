@@ -6,7 +6,7 @@
 ### 1. Fetch these sync tools (for the 11.0 manifest, change "10" to "11") ###
 	mkdir ~/OrangeFox_10
 	cd ~/OrangeFox_10
-	git clone https://gitlab.com/OrangeFox/sync.git (or, using ssh, "git clone git@gitlab.com:OrangeFox/sync.git")
+	git clone https://github.com/Ctapchuk/OFRP_manifest_sync.git (or, using ssh, "git clone git@github.com:Ctapchuk/OFRP_manifest_sync.git")
 
 ### 2. Do the syncing (this can take up to 1 hour, and can use up to 40GB of disk space) ##
 	cd ~/OrangeFox_10/sync
