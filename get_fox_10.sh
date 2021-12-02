@@ -152,9 +152,9 @@ local URL=""
 clone_fox_vendor() {
 local URL
    if [ "$USE_SSH" = "0" ]; then
-      URL="https://github.com/Ctapchuk/android_bootable_recovery-OFRP.git"
+      URL="https://github.com/Ctapchuk/android_vendor_ofrp.git"
    else
-      URL="git@github.com:Ctapchuk/android_bootable_recovery-OFRP.git"
+      URL="git@github.com:Ctapchuk/android_vendor_ofrp.git"
    fi
    
    echo "-- Preparing for cloning the OrangeFox vendor tree ..."
